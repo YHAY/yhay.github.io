@@ -8,27 +8,5 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* _custom.scss */
-
-.page__content {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .page__content {
-    max-width: 800px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page__content {
-    max-width: 90%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .page__content {
-    max-width: 95%;
-  }
-}
+// ✨ 커스텀 스타일시트 불러오기
+@import "_sass/skins/_custom"; // custom skin
