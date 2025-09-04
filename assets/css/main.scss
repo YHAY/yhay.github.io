@@ -8,5 +8,5 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// ✨ 커스텀 스타일시트 불러오기
-@import "_sass/skins/_custom"; // custom skin
+// Custom styles
+@import "minimal-mistakes/skins/custom";
